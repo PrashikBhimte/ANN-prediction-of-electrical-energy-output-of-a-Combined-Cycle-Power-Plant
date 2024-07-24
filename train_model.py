@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-dataset = pd.read_excel("C://Users//prash//OneDrive//Desktop//ML-Projects//2 prediction of electrical energy output of a Combined Cycle Power Plant//Folds5x2_pp.xlsx")
+dataset = pd.read_excel("C://Users//prash//OneDrive//Desktop//ML-Projects//2 ANN prediction of electrical energy output of a Combined Cycle Power Plant//Folds5x2_pp.xlsx")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
